@@ -11,8 +11,8 @@ class AchievementCell extends StatelessWidget {
 
   const AchievementCell({
     Key key,
-    this.achievement,
-    this.index,
+    @required this.achievement,
+    @required this.index,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
